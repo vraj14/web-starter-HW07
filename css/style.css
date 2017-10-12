@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Raleway:500');
+
+body{
+  background-color: #222;
+  background: url("../images/Red-and-Yellow.jpg") no-repeat center center;
+  background-size: cover;
+
+}
+
+.content-box{
+padding: 10px;
+}
+
+.hero-top {
+  background: url("../images/euphoria_1366 x 450.jpg") no-repeat center center;
+  background-size: cover;
+  color: #CCC;
+  text-align: right;
+  height: 300px;
+  margin-top: 20px;
+}
+
+h1{
+  text-align: left;
+	padding-top: 160px;
+  padding-left: 25px;
+	color: rgba(0, 0, 0, 0.9);
+  font-family: 'Indie Flower', cursive;
+}
+
+h4{
+  font-family: 'Indie Flower', cursive;
+}
+
+.bg-dark {
+    background-color: rgba(0,0,0,0.25);
+}
+
+p{
+  color: rgba(255,255,255,0.8);
+  margin-top: 10px;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: .75px;
+}
+
+.col{
+  width: 100%;
+  height: auto;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+h5{
+  color: rgba(255, 255, 255, 0.75);
+  letter-spacing: .75px;
+  height: auto;
+}
+
+.card-text{
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.fa{
+  padding-top: 10px;
+}
+
+@media (max-width: 575px) {
+  .content-box {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
